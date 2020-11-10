@@ -1,0 +1,116 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.slf--wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /*min-height: 100vh;*/
+    
+}
+
+.slf--content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ECE8EB;
+}
+
+
+.slf--content .slf--input-box {
+    position: relative;
+    width: 300px;
+    height: 46px;
+    margin-bottom: 35px;
+}
+
+.slf--content .slf--input-box:last-child {
+	margin-bottom: 0px;
+}
+.slf--content .slf--input-box input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: #111;
+    background-color: transparent;
+}
+
+ h2#slf-form-headding {
+    margin-bottom: 55px !important;
+    border-left: 5px solid  #1A73E8;
+    line-height: 1em;
+    padding-left: 8px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+
+.slf--content .slf--input-box span {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    display: inline-block;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-size: 16px;
+    color: #111;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.slf--content .slf--input-box input:focus ~ span,
+.slf--content .slf--input-box input:valid ~ span 
+{
+	-webkit-transform: translateX(-10px) translateY(-32px);
+	    -ms-transform: translateX(-10px) translateY(-32px);
+	        transform: translateX(-10px) translateY(-32px);
+	font-size: 16px;
+}
+
+
+.slf--content .slf--input-box input[type="submit"]{
+	background-color: #1A73E8;
+	cursor: pointer;
+	color: #fff;
+-webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    border:none;
+}
+.slf--content .slf--input-box input[type="submit"]:hover{
+	box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+}
+
+.slf-form-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+    text-transform: capitalize;
+}
