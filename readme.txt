@@ -1,6 +1,6 @@
-=== Smpale Login Form Ajax Width Shortcode ===
+=== Smpale Login Form Ajax Shortcode ===
 Contributors: msakib
-Donate link: https://themepaw.com/
+Donate link: https://themepaw.com
 Tags: ajax logon form, smpale login form,shortcode login form, ajax login form, widgte login form
 Requires at least: 4.7
 Tested up to: 5.5.3
@@ -12,28 +12,20 @@ Stable tag: trunk
 widgetKits All in one solution sidebar widget
 
 == Description ==
+Put simple login form width ajax on page and template and elementor shortcode widget using shortcode .
+`
+[smpale_login_form_ajax]
+`
 
-<p>
+== Screenshots ==
+1. Front end login form width shortcode
 
-
-
-==  ==
-
-* 
-* Social Links Widget
-* Author About Widget
-
-</p>
 
 
 
 == Installation ==
 Installation is fairly straight forward. Install it from the WordPress plugin repository. 
 
-= 1.1.0 =
-* Latest Posts Widget
-* Social Links Widget
-* Author About Widget
 
 = 1.0.0 =
 * Initial Release
