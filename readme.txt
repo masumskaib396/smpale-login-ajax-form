@@ -17,12 +17,6 @@ Put simple login form width ajax on page and template and elementor shortcode wi
 [smpale_login_form_ajax]
 `
 
-== Screenshots ==
-1. Front end login form width shortcode
-
-
-
-
 == Installation ==
 Installation is fairly straight forward. Install it from the WordPress plugin repository. 
 
